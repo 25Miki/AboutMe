@@ -1,0 +1,206 @@
+body{
+  background-image: url("https://i.pinimg.com/474x/7d/4a/a3/7d4aa36534e50fc8a6c8287a8f1fade1--nursery-wallpaper-bathroom-wallpaper.jpg") ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  margin: 0;
+  z-index: 1;
+
+}
+
+.filtro1, .filtro2, .filtro3, .filtro4, .filtro5{
+  z-index: 1;
+  position:fixed;
+  height: 110vh;
+  width: 100vw;
+  opacity: 45%;
+  z-index: 2;
+  display: none;
+}
+
+.filtro1{
+  background-color: aqua;
+}
+
+.filtro2{
+  background-color: rgb(217, 226, 43);
+}
+
+.filtro3{
+  background-color: rgb(255, 0, 51);
+}
+
+.filtro4{
+  background-color: rgb(0, 255, 17);
+}
+
+.filtro5{
+  background-color: blueviolet;
+}
+
+.bombilla{
+    width: 15%;
+    position: relative;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -20px;
+    display: flex;
+    top: 0;
+    z-index: 3;
+  }
+  
+  .retrato{
+    width: 70%;
+    display: flex;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    box-shadow: #222;
+    
+  }
+
+  .papiros{
+    width: 45%;
+    height: 25%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .papiro{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    z-index: 3;
+    position: absolute;
+    opacity: 0%;
+  }
+
+  .papiro1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: absolute;
+  }
+
+  .todojunto{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    z-index: 2;
+    position: absolute;
+    opacity: 0%;
+  }
+
+  .todojunto1{
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    position: absolute;
+  }
+
+  .bottom{
+    height: 50%;
+    width: 100%;
+    position: relative;
+    margin-top: -150px;
+  }
+  .suelo{
+    width: 100%;
+    height:30%;
+    position: absolute;
+    bottom: 0;
+    background-size: contain;
+    background-image: url("/IMG/suelo.png");
+    z-index: -1;
+    background-color: rgb(166, 162, 162);
+    border-top:#222 3px solid;
+  }
+
+  .titulo{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 0px;
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 3; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 70%;
+  max-width: 700px;
+  height: 50%;
+}
+
+/* textogatos of Modal Image (Image Text) - Same Width as the Image */
+.textomodal {
+  margin: auto;
+  display: block;
+  font-size: 2em;
+  width: 80%;
+  text-align: center;
+  color: #ccc;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #textogatos {
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close, .close2, .close3, .close4 {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+ 
