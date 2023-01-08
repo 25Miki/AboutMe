@@ -1,3 +1,29 @@
+    //Bio
+    var a = document.getElementById("papiro");
+    var b = document.getElementById("papiro1");
+    var c = document.getElementById("papiro2");
+
+
+        a.addEventListener("click",function(){
+            modalbio.style.display = "block";
+            c.style.display = "block";
+            b.style.display = "none";
+         
+        }, false);
+        
+    var span = document.getElementsByClassName("close")[0];
+    var modalgato = document.getElementById("modalbio");
+
+    span.onclick = function() {
+    modalbio.style.display = "none";
+    c.style.display = "none";
+    b.style.display = "block";
+
+
+    }
+
+
+
 
 //Gato
 
@@ -16,7 +42,7 @@ var a = document.getElementById("todojunto");
         }, false);
     }, false);
         
-    var span = document.getElementsByClassName("close")[0];
+    var span = document.getElementsByClassName("close1")[0];
     var modalgato = document.getElementById("modalgato");
 
     span.onclick = function() {
@@ -148,5 +174,4 @@ var a = document.getElementById("todojunto");
 
         }
      }
-
 
