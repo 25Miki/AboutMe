@@ -1,26 +1,4 @@
-    //Bio
-    var a = document.getElementById("papiro");
-    var b = document.getElementById("papiro1");
-    var c = document.getElementById("papiro2");
 
-
-        a.addEventListener("click",function(){
-            modalbio.style.display = "block";
-            c.style.display = "block";
-            b.style.display = "none";
-         
-        }, false);
-        
-    var span = document.getElementsByClassName("close")[0];
-    var modalgato = document.getElementById("modalbio");
-
-    span.onclick = function() {
-    modalbio.style.display = "none";
-    c.style.display = "none";
-    b.style.display = "block";
-
-
-    }
 
 
 
@@ -28,6 +6,7 @@
 //Gato
 
 var a = document.getElementById("todojunto");
+var b = document.getElementById("todojuntoD");
 
     a.addEventListener("load",function(){
 
@@ -36,6 +15,19 @@ var a = document.getElementById("todojunto");
         var modalgato = document.getElementById("modalgato");
 
         alfa.addEventListener("click",function(){
+                modalgato.style.display = "block";
+                
+
+        }, false);
+    }, false);
+
+    b.addEventListener("load",function(){
+
+        var svgDoc = b.contentDocument;
+        var beta = svgDoc.getElementById("Gato");
+        var modalgato = document.getElementById("modalgato");
+
+        beta.addEventListener("click",function(){
                 modalgato.style.display = "block";
                 
 
@@ -64,6 +56,19 @@ var a = document.getElementById("todojunto");
 
         }, false);
     }, false);
+
+    b.addEventListener("load",function(){
+
+        var svgDoc = b.contentDocument;
+        var beta = svgDoc.getElementById("Cactus");
+        var modalcactus = document.getElementById("modalcactus");
+
+        beta.addEventListener("click",function(){
+                modalcactus.style.display = "block";
+                
+
+        }, false);
+    }, false);
         
     var span2 = document.getElementsByClassName("close2")[0];
     var modalcactus = document.getElementById("modalcactus");
@@ -82,6 +87,19 @@ var a = document.getElementById("todojunto");
         var modalsports = document.getElementById("modalsports");
 
         alfa.addEventListener("click",function(){
+                modalsports.style.display = "block";
+                
+
+        }, false);
+    }, false);
+
+    b.addEventListener("load",function(){
+
+        var svgDoc = b.contentDocument;
+        var beta = svgDoc.getElementById("sports");
+        var modalsports = document.getElementById("modalsports");
+
+        beta.addEventListener("click",function(){
                 modalsports.style.display = "block";
                 
 
@@ -109,6 +127,19 @@ var a = document.getElementById("todojunto");
 
         }, false);
     }, false);
+
+    b.addEventListener("load",function(){
+
+        var svgDoc = b.contentDocument;
+        var beta = svgDoc.getElementById("Games");
+        var modalgames = document.getElementById("modalgames");
+
+        beta.addEventListener("click",function(){
+                modalgames.style.display = "block";
+                
+
+        }, false);
+    }, false);
         
     var span4 = document.getElementsByClassName("close4")[0];
     var modalgames = document.getElementById("modalgames");
@@ -118,60 +149,60 @@ var a = document.getElementById("todojunto");
     }
 
 
-     var filtro1 = document.getElementById("filtro1");
-     var filtro2 = document.getElementById("filtro2");
-     var filtro3 = document.getElementById("filtro3");
-     var filtro4 = document.getElementById("filtro4");
-     var filtro5 = document.getElementById("filtro5");
+var filtro1 = document.getElementById("filtro1");
+var filtro2 = document.getElementById("filtro2");
+var filtro3 = document.getElementById("filtro3");
+var filtro4 = document.getElementById("filtro4");
+var filtro5 = document.getElementById("filtro5");
 
 
-     var bombilla = document.getElementById("bombilla");
-     var count = 0;
-    
+var bombilla = document.getElementById("bombilla");
+var count = 0;
 
-     bombilla.onclick = function() {
-        count++;
-        
-        var n = Math.floor(count / 6);
-        var result = count - n * 6;
-        console.log(result);
 
-        switch (result){
+bombilla.onclick = function() {
+count++;
 
-            case 0:
-                filtro5.style.display = "none";
-                break;
+var n = Math.floor(count / 6);
+var result = count - n * 6;
+console.log(result);
 
-            case 1:
-                filtro1.style.display = "block";
-                break;
+switch (result){
 
-            case 2:
-                filtro2.style.display = "block";
-                filtro1.style.display = "none";
+    case 0:
+        filtro5.style.display = "none";
+        break;
 
-                break;
+    case 1:
+        filtro1.style.display = "block";
+        break;
 
-            case 3:
-                filtro3.style.display = "block";
-                filtro2.style.display = "none";
+    case 2:
+        filtro2.style.display = "block";
+        filtro1.style.display = "none";
 
-                break;
+        break;
 
-            case 4:
-                filtro4.style.display = "block";
-                filtro3.style.display = "none";
+    case 3:
+        filtro3.style.display = "block";
+        filtro2.style.display = "none";
 
-                break;
+        break;
 
-            case 5:
-                filtro5.style.display = "block";
-                filtro4.style.display = "none";
+    case 4:
+        filtro4.style.display = "block";
+        filtro3.style.display = "none";
 
-                break;
+        break;
 
-            default:
+    case 5:
+        filtro5.style.display = "block";
+        filtro4.style.display = "none";
 
-        }
-     }
+        break;
+
+    default:
+
+}
+}
 

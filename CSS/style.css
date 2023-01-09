@@ -8,6 +8,8 @@ body{
 
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .filtro1, .filtro2, .filtro3, .filtro4, .filtro5{
   z-index: 1;
   position:fixed;
@@ -70,31 +72,6 @@ body{
     margin-right: auto;
   }
 
-  .papiro{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    z-index: 3;
-    position: absolute;
-    opacity: 0%;
-  }
-
-  .papiro1{
-    width: 100%;
-    height: auto;
-    display: flex;
-    position: absolute;
-  }
-
-  .papiro2{
-    width: 100%;
-    height: auto;
-    z-index: 4;
-    display: flex;
-    position: absolute;
-    display: none;
-  }
-
   .todojunto{
     width: 100%;
     margin-left: auto;
@@ -154,7 +131,7 @@ body{
     margin-top: -30px;
     font-size: 30px;
     font-weight: bolder;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family:'Rubik', sans-serif;
   }
   
 
@@ -238,17 +215,54 @@ body{
 }
 @media (min-width: 450px){
 
-  .retrato{
+  .retrato, .bottom, .titulo, .suelo2{
     display: none;
   }
 
-  .bottom{
-    display: none;
+  .titulos{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 39%;
+    margin-right: 35%;
+    margin-top: 40px;
+  }
+
+  .tituloD{
+    font-family: 'Rubik',  sans-serif;
+    font-size: 4vw;
+    font-weight: bolder;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:center;
+    margin-top: -40px;
+    }
+
+  .subtituloD{
+    font-family: 'Rubik', sans-serif;
+    font-size: 3vw;
+    font-weight: 400;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content:flex-start;
   }
 
   .todojuntoD{
     display: block;
+    margin-top: -100px;
   }
+
+  .bombilla{
+    width: 7%;
+    margin-top: 0;
+  }
+
+  #gato{
+    width: 200px;
+  }
+
+
 }
 
 
