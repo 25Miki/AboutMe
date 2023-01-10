@@ -219,10 +219,40 @@ body{
     display: none;
   }
 
+  .menu{
+    display: flex;
+    position: absolute;
+    height: 300px;
+    margin-left: 65%;
+    margin-right: 12vw;
+  }
+
+  ul{
+    list-style: none;
+    position: relative;
+  }
+
+  li{
+    background-color: black;
+
+    border: solid white 2px;
+
+    padding: 20px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-weight: bolder;
+    font-size: 4vh;
+  }
+
   .titulos{
     position: absolute;
+    z-index: 2;
     margin-top: -80px;
-    margin-left: 39%;
+    margin-left: 40%;
     margin-right: 35%;
     margin-top: 40px;
   }
@@ -240,28 +270,72 @@ body{
 
   .subtituloD{
     font-family: 'Rubik', sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     font-weight: 400;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     justify-content:flex-start;
+    margin-top: -20px;
   }
 
   .todojuntoD{
-    display: block;
+    position: relative;
+    z-index: -1;
+    display: flex;
     margin-top: -100px;
+    height: 100%;
+    bottom: 0;
+    margin-right: auto;
   }
 
   .bombilla{
-    width: 7%;
-    margin-top: 0;
+    width: 4%;
+    margin-top: -5px;
   }
 
-  #gato{
-    width: 200px;
+  .bio{
+    position: relative;
+    margin: 0;
+    height: 100%;
+    font-family: 'Rubik';
+    font-weight: bolder ;
+    color: white;
+    padding: 50px;
+    margin-top: 30px;
   }
 
+  .fondochachi{
+      background: linear-gradient(300deg,deepskyblue,darkviolet,blue);
+      background-size: 180% 180%;
+      animation: gradient-animation 21s ease infinite;
+      height: 100%;
+      margin: 0;
+    }
+
+    .fondochachi2{
+      
+        background: linear-gradient(300deg,#5100ff,#ff0060);
+        background-size: 120% 120%;
+        animation: gradient-animation 14s ease infinite;
+      
+      height: 100%;
+      margin: 0;
+    }
+    
+    
+    @keyframes gradient-animation {
+      0% {
+        background-position: 0% 50%;
+      }
+      50% {
+        background-position: 100% 50%;
+      }
+      100% {
+        background-position: 0% 50%;
+      }
+    
+  }
 
 }
 
