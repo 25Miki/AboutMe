@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 1536 2048" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect x="86.107" y="112.479" width="1365" height="1818.76" style="stroke:#000;stroke-width:135.98px;"/>
+    <rect x="110.539" y="218.682" width="1324.95" height="1551.67" style="fill:#ebebeb;stroke:#ebebeb;stroke-width:32.93px;"/>
+    <ellipse cx="774.203" cy="1880.98" rx="43.945" ry="44.253" style="fill:none;stroke:#ebebeb;stroke-width:14.02px;"/>
+    <g id="Hi">
+        <text x="263.789px" y="1282.75px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:782.624px;">Hi!</text>
+    </g>
+    <g id="Try-click">
+        <g transform="matrix(0.46265,0,0,0.46265,238.032,381.003)">
+            <text x="440.326px" y="1023.68px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:994.026px;">T<tspan x="885.891px 1301.36px " y="1023.68px 1023.68px ">ry</tspan></text>
+            <text x="159.3px" y="2047.32px" style="font-family:'Futura-Medium', 'Futura', sans-serif;font-weight:500;font-size:994.026px;">clic<tspan x="1627.53px " y="2047.32px ">k</tspan></text>
+        </g>
+    </g>
+</svg>
