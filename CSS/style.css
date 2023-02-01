@@ -1,3 +1,23 @@
+
+
+
+@import site.css; /* BODY Y HTML */
+@import header.css; /*titulos */
+@import typography.css; /*tipografías*/
+@import images.css; /* estilo de imagen */
+@import lists.css; /* estilo de listas */
+@import forms.css; /* formularios*/
+@import links.css; /* links */
+@import buttons.css; /* botones y estilo de botones */
+
+@import filters.css; /* filtros de luz*/
+@import animations.css; /* animaciones */
+@import menu.css; /* menús */
+
+
+
+
+
 body{
   background-image: url("https://i.pinimg.com/474x/7d/4a/a3/7d4aa36534e50fc8a6c8287a8f1fade1--nursery-wallpaper-bathroom-wallpaper.jpg") ;
   height: 100vh;
